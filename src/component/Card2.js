@@ -4,6 +4,7 @@ import "./card.css";
 function Card2({ imageSource, name, gpa }) {
   return (
     <div className="card">
+      <div className="grid-container">
       <div>
         <img src={imageSource} alt="" />
       </div>
@@ -13,6 +14,7 @@ function Card2({ imageSource, name, gpa }) {
           {gpa ? gpa: " Wrong"}
         </p>
       <button>Grade</button>
+      </div>
       </div>
     </div>
     
