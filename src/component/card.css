@@ -1,7 +1,10 @@
-
+ .grid-container {
+    display: grid;
+    row-gap: 50px;
+  }
   .card {
     position: relative;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     min-width: 0;
     width: 40rem;
@@ -9,7 +12,8 @@
     background-color: #fff;
     background-clip: border-box;
     border-radius: .25rem;
-    border: 1px solid rgba(0, 0, 0, .125);
+    border: 5px solid rgba(0, 0, 0, .125);
+    
 }
   .card-body {
     padding: 1.5rem;
@@ -19,3 +23,4 @@
     margin-top: 0;
     margin-bottom: 1rem;
   }
+ 
