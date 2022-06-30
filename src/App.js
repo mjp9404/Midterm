@@ -10,6 +10,7 @@ import {
 import Home from './component/home';
 import About from './component/about';
 import Contact from './component/contact';
+import Cards from './component/Cards'
 class App extends Component {
   render() {
     return (
@@ -31,9 +32,10 @@ class App extends Component {
                  <Route exact path='/about' element={< About />}></Route>
                  <Route exact path='/contact' element={< Contact />}></Route>
           </Routes>
+
+          <Cards/>
           </div>
        </Router>
-
       
    );
   }
