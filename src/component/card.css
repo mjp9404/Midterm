@@ -1,7 +1,4 @@
-/* .card:hover {
-    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
-    transition: all 0.7s linear;
-  } */
+
   .card {
     position: relative;
     display: flex;
@@ -22,16 +19,3 @@
     margin-top: 0;
     margin-bottom: 1rem;
   }
-/*   
-  .overflow {
-    overflow: hidden;
-  }
-   */
-  /* .card-img-top {
-    transform: scale(1);
-    transition: all 0.2s ease-in-out;
-  } */
-/*   
-  .card-img-top:hover {
-    transform: scale(1.8);
-  } */
